@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://donzdani60-ui.github.io/techbench-releases/sitemap.xml

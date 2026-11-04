@@ -3,34 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TechBench — Repair Technician Platform</title>
+<title>TechBench: Electronics Repair – Diagnostics hub for repair technicians (Android &amp; Windows)</title>
+<meta name="description" content="TechBench is the complete diagnostics hub for electronics repair technicians: board scanner, golden values, power logger, thermal camera, UART triage, repair CRM and an EDA Copilot. Download on Google Play or for Windows PC.">
+<meta name="keywords" content="TechBench, TechBench app, electronics repair app, logic board diagnostics, board scanner, golden values, diode mode, power rail, UART boot log, repair technician software, micro soldering, phone repair tool, Android, Windows">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://donzdani60-ui.github.io/techbench-releases/">
+<link rel="icon" href="media/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="media/icon-192.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TechBench">
+<meta property="og:title" content="TechBench: Electronics Repair – Diagnostics hub for repair technicians">
+<meta property="og:description" content="Board scanner, golden values, power logger, thermal camera, UART triage, repair CRM and an EDA Copilot. Free on Google Play and for Windows PC.">
+<meta property="og:url" content="https://donzdani60-ui.github.io/techbench-releases/">
+<meta property="og:image" content="https://donzdani60-ui.github.io/techbench-releases/media/og-image.png">
+<meta property="og:image:width" content="1228">
+<meta property="og:image:height" content="768">
+<meta property="og:video" content="https://donzdani60-ui.github.io/techbench-releases/media/techbench-promo.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TechBench: Electronics Repair">
+<meta name="twitter:description" content="The complete diagnostics hub for electronics repair technicians. Android &amp; Windows.">
+<meta name="twitter:image" content="https://donzdani60-ui.github.io/techbench-releases/media/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "TechBench: Electronics Repair",
+  "alternateName": "TechBench",
+  "operatingSystem": "Android 7.0+, Windows 10/11",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Electronics repair diagnostics",
+  "description": "The complete diagnostics hub for electronics repair technicians: board scanner, golden values, power logger, thermal camera, UART triage, repair CRM, knowledge base and an EDA Copilot.",
+  "url": "https://donzdani60-ui.github.io/techbench-releases/",
+  "image": "https://donzdani60-ui.github.io/techbench-releases/media/og-image.png",
+  "screenshot": [
+    "https://donzdani60-ui.github.io/techbench-releases/media/01-dashboard.png",
+    "https://donzdani60-ui.github.io/techbench-releases/media/02-usb-uart-live.png",
+    "https://donzdani60-ui.github.io/techbench-releases/media/03-ai-diagnostics-live.png",
+    "https://donzdani60-ui.github.io/techbench-releases/media/04-board-scanner-macbook.png",
+    "https://donzdani60-ui.github.io/techbench-releases/media/05-power-logger-live.png"
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "name": "TechBench promo",
+    "description": "A tour of TechBench: device golden values, UART boot log triage, board scanner, heatmap, power logger, thermal camera and 16 languages.",
+    "thumbnailUrl": "https://donzdani60-ui.github.io/techbench-releases/media/og-image.png",
+    "contentUrl": "https://donzdani60-ui.github.io/techbench-releases/media/techbench-promo.mp4",
+    "uploadDate": "2026-11-04",
+    "duration": "PT1M22S"
+  },
+  "downloadUrl": "https://github.com/donzdani60-ui/techbench-releases/releases/latest",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.techbench.app",
+  "softwareVersion": "1.0.2",
+  "datePublished": "2026-11-01",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP"},
+  "author": {"@type": "Organization", "name": "TechBench", "url": "https://donzdani60-ui.github.io/techbench-releases/"}
+}
+</script>
+
 <style>
-  body { background:#0b1020; color:#cdd9ff; font-family:'Segoe UI',system-ui,sans-serif;
-         line-height:1.65; max-width:720px; margin:0 auto; padding:48px 20px 80px; text-align:center; }
-  h1 { color:#ffd54f; font-size:2.2em; margin-bottom:4px; }
-  .tag { color:#9fb4e8; margin-bottom:36px; }
-  a.btn { display:inline-block; background:#ffd54f; color:#0b1020; font-weight:700;
+  :root { --bg:#0b1020; --card:#111a33; --text:#cdd9ff; --muted:#9fb4e8; --gold:#ffd54f; --link:#4fc3f7; }
+  * { box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+         line-height:1.6; margin:0; padding:40px 20px 80px; }
+  main { max-width:960px; margin:0 auto; text-align:center; }
+  h1 { color:var(--gold); font-size:2.2em; margin:0 0 4px; letter-spacing:.5px; }
+  h2 { color:var(--gold); font-size:1.25em; margin:48px 0 14px; }
+  .tag { color:var(--muted); margin:0 auto 28px; max-width:720px; }
+  a.btn { display:inline-block; background:var(--gold); color:var(--bg); font-weight:700;
           padding:14px 26px; border-radius:10px; text-decoration:none; margin:8px; }
-  a.btn.alt { background:#232c52; color:#cdd9ff; }
-  .links { margin-top:48px; } .links a { color:#4fc3f7; margin:0 12px; }
-  .note { color:#9fb4e8; font-size:0.85em; margin-top:10px; }
+  a.btn.alt { background:#232c52; color:var(--text); }
+  .note { color:var(--muted); font-size:.85em; margin-top:10px; }
+  .note a, .links a { color:var(--link); }
+  video { width:100%; max-width:960px; border-radius:12px; background:#000; box-shadow:0 8px 40px rgba(0,0,0,.5); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; text-align:left; }
+  .grid figure { margin:0; background:var(--card); border-radius:10px; overflow:hidden; }
+  .grid img { width:100%; display:block; }
+  .grid figcaption { padding:10px 12px; font-size:.9em; color:var(--muted); }
+  ul.features { text-align:left; max-width:720px; margin:0 auto; padding-left:22px; color:var(--text); }
+  ul.features li { margin:6px 0; }
+  .links { margin-top:48px; } .links a { margin:0 12px; }
 </style>
 </head>
 <body>
-<h1>🔧 TechBench</h1>
-<p class="tag">AI-powered logic-board diagnostics for repair technicians — board scanner,
-live power analysis, UART triage, golden values, thermal imaging, and an EDA Copilot.</p>
+<main>
+<img src="media/icon-192.png" alt="TechBench app icon" width="96" height="96" style="border-radius:22px">
+<h1>TechBench: Electronics Repair</h1>
+<p class="tag">The complete diagnostics hub for electronics repair technicians: board scanner, golden values,
+power logger, thermal camera, UART triage, repair CRM, knowledge base and an EDA Copilot. Available in 16 languages.</p>
 
 <a class="btn" href="https://play.google.com/store/apps/details?id=com.techbench.app">📱 Get it on Google Play</a>
 <a class="btn alt" href="https://github.com/donzdani60-ui/techbench-releases/releases/download/v1.0.2/TechBench-Windows-1.0.2.zip">💻 Download for Windows (1.0.2)</a>
 <p class="note">Android: install from Google Play (phones, tablets and foldables, Android 7.0+). In-app Pro unlock available.<br>
 Windows: extract the zip and run techbench.exe ("More info → Run anyway" if SmartScreen appears).<br>
-<a href="https://github.com/donzdani60-ui/techbench-releases/releases" style="color:#4fc3f7">All releases &amp; changelog</a></p>
+<a href="https://github.com/donzdani60-ui/techbench-releases/releases">All releases &amp; changelog</a></p>
+
+<h2>See it in action</h2>
+<video controls preload="metadata" poster="media/og-image.png">
+  <source src="media/techbench-promo.mp4" type="video/mp4">
+  Your browser does not support embedded video. <a href="media/techbench-promo.mp4">Download the video</a>.
+</video>
+
+<h2>What technicians get</h2>
+<ul class="features">
+  <li><strong>Golden Values</strong> – expected voltages and diode readings for every power rail, per device model.</li>
+  <li><strong>Board Scanner</strong> – point the camera at a logic board to spot missing shields, loose connectors and burnt parts.</li>
+  <li><strong>UART triage</strong> – read the boot log live and get a ranked list of suspect components.</li>
+  <li><strong>Power Logger</strong> – USB meter current draw by boot stage, with stall and loop detection.</li>
+  <li><strong>Heatmap &amp; Thermal Camera</strong> – common-failure maps and live hotspot tracking.</li>
+  <li><strong>Repair CRM, Knowledge Base, private schematic library</strong> – your shop data, injected into the Copilot.</li>
+</ul>
+
+<h2>Screenshots</h2>
+<div class="grid">
+  <figure><img src="media/01-dashboard.png" alt="TechBench dashboard with quick tools, recent repairs and inventory" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+  <figure><img src="media/02-usb-uart-live.png" alt="Live UART boot log from an FT232R serial adapter" loading="lazy"><figcaption>Live UART boot log</figcaption></figure>
+  <figure><img src="media/03-ai-diagnostics-live.png" alt="Diagnostics pipeline with ranked suspect components for an iPhone 11 Pro Max" loading="lazy"><figcaption>Diagnostics with ranked faults</figcaption></figure>
+  <figure><img src="media/04-board-scanner-macbook.png" alt="Board Scanner analysing a MacBook logic board with anomaly overlays" loading="lazy"><figcaption>Board Scanner</figcaption></figure>
+  <figure><img src="media/05-power-logger-live.png" alt="Power Logger showing live current and voltage from a Bluetooth USB meter" loading="lazy"><figcaption>Power Logger</figcaption></figure>
+</div>
 
 <div class="links">
   <a href="terms.html">Terms of Service</a> ·
   <a href="privacy.html">Privacy Policy</a> ·
   <a href="mailto:donzdani60@gmail.com">Contact</a>
 </div>
+</main>
 </body>
 </html>
