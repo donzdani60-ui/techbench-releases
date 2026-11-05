@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://donzdani60-ui.github.io/techbench-releases/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://donzdani60-ui.github.io/techbench-releases/media/01-dashboard.png</image:loc><image:title>TechBench dashboard</image:title></image:image>
     <image:image><image:loc>https://donzdani60-ui.github.io/techbench-releases/media/04-board-scanner-macbook.png</image:loc><image:title>TechBench Board Scanner</image:title></image:image>
     <video:video>
-      <video:thumbnail_loc>https://donzdani60-ui.github.io/techbench-releases/media/og-image.png</video:thumbnail_loc>
+      <video:thumbnail_loc>https://donzdani60-ui.github.io/techbench-releases/media/promo-poster.png</video:thumbnail_loc>
       <video:title>TechBench: Electronics Repair – app tour</video:title>
       <video:description>Golden values, UART triage, board scanner, heatmap, power logger, thermal camera and 16 languages.</video:description>
       <video:content_loc>https://donzdani60-ui.github.io/techbench-releases/media/techbench-promo.mp4</video:content_loc>
-      <video:duration>82</video:duration>
-      <video:publication_date>2026-11-04</video:publication_date>
+      <video:duration>85</video:duration>
+      <video:publication_date>2026-11-05T14:30:00+00:00</video:publication_date>
     </video:video>
   </url>
   <url><loc>https://donzdani60-ui.github.io/techbench-releases/terms.html</loc><lastmod>2026-09-04</lastmod><priority>0.3</priority></url>
