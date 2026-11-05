@@ -12,6 +12,7 @@
       <video:title>TechBench: Electronics Repair – app tour</video:title>
       <video:description>Golden values, UART triage, board scanner, heatmap, power logger, thermal camera and 16 languages.</video:description>
       <video:content_loc>https://donzdani60-ui.github.io/techbench-releases/media/techbench-promo.mp4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/GCzEg8T317g</video:player_loc>
       <video:duration>85</video:duration>
       <video:publication_date>2026-11-05T14:30:00+00:00</video:publication_date>
     </video:video>

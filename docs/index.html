@@ -53,7 +53,8 @@
     "name": "TechBench promo",
     "description": "A tour of TechBench: device golden values, UART boot log triage, board scanner, heatmap, power logger, thermal camera and 16 languages.",
     "thumbnailUrl": ["https://donzdani60-ui.github.io/techbench-releases/media/promo-poster.png", "https://donzdani60-ui.github.io/techbench-releases/media/og-image.png"],
-    "embedUrl": "https://donzdani60-ui.github.io/techbench-releases/media/techbench-promo.mp4",
+    "embedUrl": "https://www.youtube.com/embed/GCzEg8T317g",
+    "sameAs": "https://www.youtube.com/watch?v=GCzEg8T317g",
     "contentUrl": "https://donzdani60-ui.github.io/techbench-releases/media/techbench-promo.mp4",
     "uploadDate": "2026-11-05T14:30:00+00:00",
     "duration": "PT1M25S"
@@ -64,7 +65,7 @@
   "datePublished": "2026-11-01",
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP"},
   "logo": "https://donzdani60-ui.github.io/techbench-releases/media/icon-512.png",
-  "author": {"@type": "Organization", "name": "TechBench", "url": "https://donzdani60-ui.github.io/techbench-releases/"}
+  "author": {"@type": "Organization", "name": "TechBench", "url": "https://donzdani60-ui.github.io/techbench-releases/", "sameAs": ["https://www.youtube.com/@donzdani", "https://play.google.com/store/apps/details?id=com.techbench.app"]}
 }
 </script>
 
@@ -82,7 +83,8 @@
   a.btn.alt { background:#232c52; color:var(--text); }
   .note { color:var(--muted); font-size:.85em; margin-top:10px; }
   .note a, .links a { color:var(--link); }
-  video { width:100%; max-width:960px; border-radius:12px; background:#000; box-shadow:0 8px 40px rgba(0,0,0,.5); }
+  .yt { position:relative; width:100%; max-width:960px; margin:0 auto; aspect-ratio:16/10; border-radius:12px; overflow:hidden; background:#000; box-shadow:0 8px 40px rgba(0,0,0,.5); }
+  .yt iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
   .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; text-align:left; }
   .grid figure { margin:0; background:var(--card); border-radius:10px; overflow:hidden; }
   .grid img { width:100%; display:block; }
